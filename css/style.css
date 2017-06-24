@@ -1,0 +1,91 @@
+/** {
+  border: solid 1px black;
+}*/
+
+body  {
+  width: 1400px;
+  margin: auto;
+  color: white;
+  background-color: #333;
+  font-family: Verdana;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+  padding-left: 25px;
+  padding-bottom: 0;
+  vertical-align: middle;
+  background-color: gray;
+}
+
+nav a {
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  vertical-align: middle;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-shadow: 1px 1px 3px black;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+.allcontent {
+  background-image: url('../img/background_used.png');
+  background-size: 100% 100%
+}
+
+.titlecaption {
+  text-align: center;
+  padding: 10px;
+}
+
+.topcontent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px 25px 25px;
+}
+
+.topcontent div {
+  width: 800px;
+}
+
+iframe {
+  border: solid 2px white;
+  border-radius: 15px;
+}
+
+.middlecontent {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.middlecontent div {
+  width: 415px;
+}
+
+.topcontent div, .middlecontent div {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 2px white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+h1, h2, h3, h4 {
+  text-shadow: 1px 1px 4px black;
+}
+
+p {
+  font-size: 0.8em;
+}
